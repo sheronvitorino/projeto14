@@ -1,0 +1,56 @@
+body {
+    font-family: Abhaya Libre, serif;
+}
+
+.navbar {
+    background-color: #302c2b;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:#302c2b;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+.nav-cardapio .nav-link.active:hover{
+    color:#fff;
+}
+.navbar-toggler {
+    background-color: transparent;
+}
+.section-title {
+    font-family: Oswald, sans-serif;
+}
+
+#nossaslojas, #faca-seu-pedido{
+    background-color: #d1cece;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #302c2b;
+    color: #fff;
+}
+
+.text-colored {
+    color:#000000;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #302c2b;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+    
+}
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
